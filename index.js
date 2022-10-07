@@ -11,8 +11,8 @@ const client = new Discord.Client({
   intents: [
     Discord.GatewayIntentBits.Guilds,
     Discord.GatewayIntentBits.GuildVoiceStates,
-    Discord.GatewayIntentBits.GuildMessages, // |> Required for Snipe.
-    Discord.GatewayIntentBits.MessageContent // |> Delete /events/messageDelete.js and /commands/snipe.js if you want to remove these
+    //Discord.GatewayIntentBits.GuildMessages, // |> Required for Snipe.
+    //Discord.GatewayIntentBits.MessageContent // |> Delete /events/messageDelete.js and /commands/snipe.js if you want to remove these
   ]
 });
 client.distube = new DisTube(client, {
